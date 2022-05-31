@@ -46,13 +46,13 @@ public class Game extends JPanel implements ActionListener{
 
    private void loadImages()
    {
-       ImageIcon iid = new ImageIcon("images\\black_dot.png");
+       ImageIcon iid = new ImageIcon("C:\\Users\\coaet\\Basic-Browser-Games-Attempts-\\images\\black_dot.png");
        ball = iid.getImage();
 
-       ImageIcon iia = new ImageIcon("images\\red_dot.png");
+       ImageIcon iia = new ImageIcon("C:\\Users\\coaet\\Basic-Browser-Games-Attempts-\\images\\red_dot.png");
        apple = iia.getImage();
 
-       ImageIcon iih = new ImageIcon("images\\green_dot.png");
+       ImageIcon iih = new ImageIcon("C:\\Users\\coaet\\Basic-Browser-Games-Attempts-\\images\\green_dot.png");
        head = iih.getImage();
    }
 
